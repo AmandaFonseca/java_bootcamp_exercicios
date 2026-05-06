@@ -1,0 +1,29 @@
+package com.amanda.cursojava.aula16;
+
+public class RelogioAmericano extends Relogio {
+
+    public String getHorarioFormatado() {
+
+        int hora12 = hora;
+        String periodo = "AM";
+
+        if (hora == 0) {
+            hora12 = 12;
+        } else if (hora == 12) {
+            periodo = "PM";
+        } else if (hora > 12) {
+            hora12 = hora - 12;
+            periodo = "PM";
+        }
+
+        return String.format("%02d:%02d:%02d %s",
+                hora12, minuto, segundo, periodo);
+    }
+
+    @Override
+    public void copiarHorario(Relogio outroRelogio) {
+        setHora(outroRelogio.getHora());
+        setMinuto(outroRelogio.getMinuto());
+        setSegundo(outroRelogio.getSegundo());
+    }
+}
