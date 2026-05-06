@@ -1,0 +1,22 @@
+package com.amanda.cursojava.aula15.copy;
+public class App {
+    public static void main(String[] args) {
+        // Familia ingresso = new Familia("Madmax", true, false, 3);
+        // Gerente gerente = new Gerente("Admin", "admin@email.com", "123456",
+        // "gerente", false, true);
+        // Vendedor vendedor = new Vendedor("vendedor", "vendedor@email.com", "123456",
+        // "vendedor", false, false);
+        // Atendente atendente = new Atendente("atendente", "atendente@email.com",
+        // "123456", "atendente", false, false);
+        // vendedor.adicionaVenda(3);
+        // atendente.valorCaixa(2);
+
+        RelogioBrasileiro br = new RelogioBrasileiro();
+        RelogioAmericano usa = new RelogioAmericano();
+        usa.copiarHorario(br);
+
+        System.out.println("Relógio BR: " + br.getHorarioFormatado(23, 10, 5));
+        System.out.println("Relógio USA: " + usa.getHorarioFormatado());
+    }
+
+}

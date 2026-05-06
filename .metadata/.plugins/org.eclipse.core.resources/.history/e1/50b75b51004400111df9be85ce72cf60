@@ -1,0 +1,21 @@
+package com.amanda.cursojava.aula10;
+
+import java.util.Scanner;
+
+class variaveis {
+
+	public static void main(String[] args) {
+		int idade = 25;                  // Números inteiros
+		double preco = 19.99;            // Números fracionados (precisão dupla)
+		float altura = 1.75f;            // Números fracionados (precisão simples, exige 'f')
+		char inicial = 'J';              // Caractere único (aspas simples)
+		boolean estaAtivo = true;  // Valores lógicos (true/false)
+
+		String nome;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite seu nome");
+		nome = scan.nextLine();
+		System.out.println(nome +" você tem "+idade+args[0]);
+	}
+
+}

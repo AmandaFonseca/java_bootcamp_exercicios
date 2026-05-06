@@ -1,0 +1,15 @@
+package com.amanda.cursojava.aula10;
+
+class variaveis {
+
+	public static void main(String[] args) {
+		int idade = 25;                  // Números inteiros
+		double preco = 19.99;            // Números fracionados (precisão dupla)
+		float altura = 1.75f;            // Números fracionados (precisão simples, exige 'f')
+		char inicial = 'J';              // Caractere único (aspas simples)
+		boolean estaAtivo = true;        // Valores lógicos (true/false)
+
+		System.out.println("Teste"+idade);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.amanda.cursojava.aula14;
+
+import java.util.Scanner;
+
+public class listaExercícios {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.out.in);
+		System.out.println("Digite numero 1");
+		double num1 = scan.nextDouble();
+		System.out.println("Digite numero 2");
+		double num2 = scan.nextDouble();
+		scan.close();
+	}
+
+}

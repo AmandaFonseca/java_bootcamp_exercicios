@@ -1,0 +1,53 @@
+package com.amanda.cursojava.aula13;
+
+public class operadores {
+
+	public static void main(String[] args) {
+		int resultado = 1 + 1 ;
+		System.out.println(resultado++);
+        /*Pós-incremento (resultado++)
+			Quando você usa resultado++ dentro de um System.out.println, 
+			o Java segue esta ordem:
+			-Primeiro: O valor atual da variável é enviado para o console.
+			-Depois: A variável é incrementada em +1 na memória.
+			Exemplo: Se resultado vale 2, ele imprime 2 e depois muda para 4.*/
+
+        System.out.println(++resultado);
+        /*Quando o operador vem antes, a ordem inverte:
+		-Primeiro: A variável é incrementada em +1 imediatamente.
+		-Depois: O novo valor é enviado para o console.
+		 Exemplo: Se resultado vale 6, ele muda para 7 e imprime 7.*/
+        
+        System.out.println(resultado--);
+        System.out.println(--resultado);
+    
+        
+        int valor1 = 5;
+        int valor2 = 3;
+        
+        // Operador AND (&&): As DUAS precisam ser verdadeiras
+        boolean teste = (valor1 == 5) && (valor2 == 3);
+        System.out.println("Valor1 é igual a 5 AND valor2 é igual a 3: " + teste);// True
+        
+       // Operador OR (||): PELO MENOS UMA precisa ser verdadeira
+        teste = (valor1 == 5) || (valor2 == 3);
+        System.out.println("OR Valor1 é igual a 5 OR valor2 é igual a 3: "+ teste);
+        
+       // Operador XOR (^): EXCLUSIVAMENTE UMA verdadeira (entradas diferentes)
+        valor1= 3; // Agora valor1 é 3, então (valor1 == 5) é FALSE
+        teste = (valor1 == 5) ^ (valor2 == 3);// False ^ True = True
+        System.out.println("Se Valor1 é igual a 5 ENTÃO valor2 é não igual a 3 (Diferente do operador OR (||), que aceita que ambas as condições sejam verdadeiras, o XOR é mais \"exigente\": ele só resulta em verdadeiro se as entradas forem diferentes entre si: "+ teste);
+        
+        //Operador XOR (!): inverte o valor
+        teste = (valor1 == 5) && (valor2 == 3); //false AND true = FALSE
+        teste = !(valor1 == 5) && (valor2 == 3); //!false(voltar a ser true) AND true = TRUE
+        System.out.println("Valor1 NÃO é igual a 5 mas e troquei o valor para true com o operador ! AND valor2 é igual a 3: "+ teste);
+
+
+        
+
+
+
+	}
+
+}

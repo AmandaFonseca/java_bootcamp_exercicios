@@ -1,0 +1,30 @@
+package com.amanda.cursojava.aula14;
+
+import java.util.Scanner;
+
+public class listaExercicios {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Digite numero 1");
+		double num1 = scan.nextDouble();
+		System.out.println("Digite numero 2");
+		double num2 = scan.nextDouble();
+		double soma = num1 + num2;
+		System.out.println("Soma: " + soma);
+		
+		System.out.println("Digite numero 3");
+		double num3 = scan.nextDouble();
+		double media = (soma + num3) /3;
+		System.out.println("Média: " + media);
+		
+		//conversor 
+		System.out.println("Digite metros");
+		double metros = scan.nextDouble();
+		double metrosParaCentimetros = metros *100;
+		System.out.println(metros + "metro(s) = " + metros);
+		
+		scan.close();
+	}
+
+}

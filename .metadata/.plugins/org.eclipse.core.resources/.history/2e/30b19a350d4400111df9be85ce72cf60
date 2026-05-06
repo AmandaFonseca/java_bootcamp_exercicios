@@ -1,0 +1,12 @@
+package com.amanda.cursojava.aula14;
+
+import java.util.Scanner;
+
+public class listaExercícios {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.out.in);
+		scan.close();
+	}
+
+}

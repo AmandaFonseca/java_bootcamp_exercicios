@@ -1,0 +1,42 @@
+package com.amanda.curso.aula15;
+
+import java.util.Scanner;
+
+public class JogoDaVelha {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		char jogadorAtual = 'X';
+		boolean jogoAtivo = true;
+		
+		char[][] tabuleiro = {
+	            {' ', ' ', ' '},
+	            {' ', ' ', ' '},
+	            {' ', ' ', ' '}
+	        };
+		
+		while(jogoAtivo) {
+			exibirTabuleiro(tabuleiro);
+			System.out.println("Jogador " + jogadorAtual + ", escolha linha (0-2) e coluna (0-2): ");			exibirTabuleiro(tabuleiro);
+			int linha = scanner.nextInt();
+			int coluna = scanner.nextInt();
+			
+			if (linha >= 0 && linha < 3 && coluna >= 0 && coluna < 3 && tabuleiro[linha][coluna] == ' ') {
+			
+			
+			tabuleiro[linha][coluna] = jogadorAtual;
+			exibirTabuleiro(tabuleiro);
+			jogoAtivo = false;
+		};
+		
+		
+
+	}
+	
+	public static void exibirTabuleiro(char[][] tabuleiro) {
+		for (int i = 0; i < tabuleiro.length; i++) {
+			System.out.println(tabuleiro[i][0]);
+		}
+	};
+
+}

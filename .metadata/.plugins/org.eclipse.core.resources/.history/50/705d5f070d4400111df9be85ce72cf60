@@ -1,0 +1,13 @@
+package com.amanda.cursojava.aula14;
+
+import java.util.Scanner;
+
+public class listaExercícios {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.out.in);
+
+	}
+
+}

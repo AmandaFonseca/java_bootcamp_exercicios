@@ -1,0 +1,29 @@
+package com.amanda.cursojava.aula13;
+
+public class operadores {
+
+	public static void main(String[] args) {
+		int resultado = 1 + 1 ;
+		System.out.println(resultado++);
+        /*Pós-incremento (resultado++)
+			Quando você usa resultado++ dentro de um System.out.println, 
+			o Java segue esta ordem:
+			-Primeiro: O valor atual da variável é enviado para o console.
+			-Depois: A variável é incrementada em +1 na memória.
+			Exemplo: Se resultado vale 2, ele imprime 2 e depois muda para 4.*/
+
+        System.out.println(++resultado);
+        //mesma coisa que
+        //resultado += 1;
+        //System.out.println(resultado);
+
+        resultado--;
+        System.out.println(resultado);
+
+        System.out.println(resultado--);
+        System.out.println(--resultado);
+    
+
+	}
+
+}

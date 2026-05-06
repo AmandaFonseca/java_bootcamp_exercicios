@@ -1,0 +1,22 @@
+package com.amanda.cursojava.aula15;
+
+public class Vendedor extends Usuario {
+    public Vendedor(String nome, String email, String senha, String cargo, boolean logado, boolean administrador) {
+        super(nome, email, senha, cargo, logado, administrador);
+    }
+
+    int qtsVendas = 0;
+
+    public void adicionaVenda(int venda) {
+        this.qtsVendas = +venda;
+        System.out.println("Quantidade de vendas" + qtsVendas);
+    }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + " - email: " + email + " - cargo: " + cargo + " - administrador: " + administrador
+                + " - Quantidade de vendas: "
+                + qtsVendas;
+    }
+
+}

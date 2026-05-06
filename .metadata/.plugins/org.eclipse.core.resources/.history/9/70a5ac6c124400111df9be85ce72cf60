@@ -1,0 +1,28 @@
+package com.amanda.cursojava.aula14;
+
+import java.util.Scanner;
+
+public class ListaExerciciosParte2 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		//System.out.println("\n--- Farenheit para Celsius: C =(5 *(F-32)/9). ---");
+		//System.out.println("Digite a temperatura em Farenheit");
+		//double farenheit = scan.nextDouble();
+		//double celsius = (5*(farenheit-32)/9);
+		//System.out.println("Farenheit para Celsius: "+celsius);
+		
+		int num1 = 10;
+		int num2 = 6;
+		double num3 = 10.0;
+		
+		//O produto do dobro do primeiro com metade do segundo.
+		double resultado = (num1 * 2) + (num2 /2);
+		System.out.println(resultado);
+		
+		scan.close();
+
+	}
+
+}

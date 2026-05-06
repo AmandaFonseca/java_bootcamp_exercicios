@@ -1,0 +1,27 @@
+package com.amanda.cursojava.aula15;
+
+public class Ingresso {
+    double valor = 38.00;
+    String nome;
+    boolean dublado;
+    boolean legendado;
+
+    public Ingresso(String nome, boolean dublado, boolean legendado) {
+        this.nome = nome;
+        this.dublado = dublado;
+        this.legendado = legendado;
+    }
+
+    public double getValor() {
+        return this.valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    @Override
+    public String toString() {
+        return "Nome do filme: " + nome + " - valor: " + valor + "";
+    }
+}

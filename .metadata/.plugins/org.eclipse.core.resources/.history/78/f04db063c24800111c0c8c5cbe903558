@@ -1,0 +1,14 @@
+package com.amanda.cursojava.aula15.copy;
+public final class MeiaEntrada extends Ingresso {
+
+    public MeiaEntrada(String nome, boolean dublado, boolean legendado) {
+        super(nome, dublado, legendado);
+        setValor(super.valor);
+    }
+
+    @Override
+    public void setValor(double valor) {
+        super.setValor(getValor() / 2);
+    }
+
+}

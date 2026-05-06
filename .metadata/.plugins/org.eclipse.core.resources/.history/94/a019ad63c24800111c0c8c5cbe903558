@@ -1,0 +1,22 @@
+package com.amanda.cursojava.aula15.copy;
+public class Gerente extends Usuario {
+
+    public Gerente(String nome, String email, String senha, String cargo, boolean logado, boolean administrador) {
+        super(nome, email, senha, cargo, logado, administrador);
+    }
+
+    public void set_administrador() {
+        super.set_administrador(true);
+    }
+
+    public void consultarVendasVendedor(String nomeVendedor) {
+        System.out.println("Consultando vendas do vendedor: " + nomeVendedor);
+
+        if (!super.is_administrador()) {
+            System.out.println("Erro: Acesso negado. Apenas administradores podem consultar vendas.");
+        } else {
+            System.out.println("Relatório gerado com sucesso para " + nomeVendedor);
+        }
+    }
+
+}
