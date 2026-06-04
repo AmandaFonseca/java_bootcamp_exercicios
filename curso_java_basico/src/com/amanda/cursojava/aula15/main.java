@@ -1,0 +1,13 @@
+package com.amanda.cursojava.aula15;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		Carro car = new Carro("Ferrari", 50, 20);
+		
+		System.out.println("Marca do carro: " + car.getMarca());
+		double litrosNecessarios = car.calcularCombustivel(100);
+		System.out.println("Combustível necessário para 100km: " + litrosNecessarios + " litros");
+	}
+}

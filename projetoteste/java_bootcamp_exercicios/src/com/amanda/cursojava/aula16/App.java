@@ -1,14 +1,8 @@
 package com.amanda.cursojava.aula16;
 
-import com.amanda.cursojava.aula15.Usuario;
 
 public class App {
     public static void main(String[] args) {
-    	 	Usuario user = new Usuario("Admin", "admin@email.com", "123456",
-    	         "gerente", false, true);
-    	 	System.out.println(user.get_nome());
-
-
         RelogioBrasileiro br = new RelogioBrasileiro();
         RelogioAmericano usa = new RelogioAmericano();
         usa.copiarHorario(br);
