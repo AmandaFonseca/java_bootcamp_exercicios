@@ -1,13 +1,26 @@
-package com.amanda.cursojava.aula16;
+package com.amanda.cursoJava.aula16;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
-		
-		//Carro car = new Carro("Ferrari", 50, 20);
-		
-		System.out.println("Total: " + Carro.totalCarrosCriados);
-		double kmConvertido = Carro.converterKmParaMilhas(5);
-		System.out.println(kmConvertido);
+        Familia ingresso = new Familia("Madmax", true, false, 3);
+        Gerente gerente = new Gerente("Admin", "admin@email.com", "123456",
+        "gerente", false, true);
+        Vendedor vendedor = new Vendedor("vendedor", "vendedor@email.com", "123456",
+        "vendedor", false, false);
+        Atendente atendente = new Atendente("atendente", "atendente@email.com",
+        "123456", "atendente", false, false);
+        vendedor.adicionaVenda(3);
+        atendente.valorCaixa(2);
+        
+        RelogioBrasileiro br = new RelogioBrasileiro();
+        RelogioAmericano usa = new RelogioAmericano();
+        usa.copiarHorario(br);
+
+        System.out.println("Relógio BR: " + br.getHorarioFormatado(23, 10, 5));
+        System.out.println("Relógio USA: " + usa.getHorarioFormatado());
+        
+        
 	}
+
 }

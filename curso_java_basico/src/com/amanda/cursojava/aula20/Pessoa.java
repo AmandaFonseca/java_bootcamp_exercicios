@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula20;
+package com.amanda.cursoJava.aula20;
 
 public class Pessoa {
 	private String nome;
@@ -29,8 +29,7 @@ public class Pessoa {
 	}
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
-	}
-	
+	}	
 	public String obterEtiquetaEndereco(){
 		return endereco;
     }

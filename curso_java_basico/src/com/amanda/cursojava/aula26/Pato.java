@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula26;
+package com.amanda.cursoJava.aula26;
 
 //O Pato É UM Animal e CONSEGUE Voar e Nadar
 public class Pato extends Animal implements Voador, Nadador {

@@ -1,7 +1,7 @@
-package com.amanda.cursojava.aula19B;
+package com.amanda.cursoJava.aula19B;
 
 // Precisa importar porque está em outro pacote
-import com.amanda.cursojava.aula19.Heroi;
+import com.amanda.cursoJava.aula19.Heroi;
 
 public class Recruta extends Heroi {
 	public void treinar() {

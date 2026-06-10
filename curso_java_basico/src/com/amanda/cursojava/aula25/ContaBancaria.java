@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula25;
+package com.amanda.cursoJava.aula25;
 
 //Classe abstrata: serve apenas como modelo base
 abstract class ContaBancaria {

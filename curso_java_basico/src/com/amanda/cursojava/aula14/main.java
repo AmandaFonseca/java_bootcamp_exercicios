@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula14;
+package com.amanda.cursoJava.aula14;
 
 public class main {
 
@@ -8,6 +8,6 @@ public class main {
 		
 		System.out.println("Marca do carro: " + car.getMarca());
 		double litrosNecessarios = car.getCapCombustivel();
-		System.out.println("Combustível necessário para 100km: " + litrosNecessarios + " litros");
+		System.out.println("Combustível necessário para 100 km: " + litrosNecessarios + " litros");
 	}
 }

@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula20;
+package com.amanda.cursoJava.aula20;
 
 
 public class Professor extends Pessoa {
@@ -17,7 +17,6 @@ public class Professor extends Pessoa {
 	public void setNotas(double[] notas) {
 		this.notas = notas;
 	}
-	
 	public String obterEtiquetaEndereco() {
 		String s  = "Endereço do Professor: ";
 		s += super.getEndereco();

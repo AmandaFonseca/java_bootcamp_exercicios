@@ -5,6 +5,11 @@
 		<item key="height" value="400"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="CreateGetters" value="false"/>
+		<item key="CreateSetters" value="false"/>
+		<item key="CreateTopLevel" value="true"/>
+		<item key="moveWizard.updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
 	</section>
 	<section name="RefactoringStatusDialog">
 		<item key="DIALOG_WIDTH" value="815"/>

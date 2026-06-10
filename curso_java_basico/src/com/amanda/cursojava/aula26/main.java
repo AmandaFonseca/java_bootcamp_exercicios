@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula26;
+package com.amanda.cursoJava.aula26;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,6 @@ public class main {
         Pato  patoDonald = new Pato("Donald");
         Peixe nemo = new Peixe("Nemo");
         Leao rei = new Leao("Mufasa");
-
 
         System.out.println("2. USANDO COMO ANIMAIS (Classe Abstrata)");
         // Uma lista do tipo da classe abstrata aceita qualquer filho dela
@@ -43,9 +42,7 @@ public class main {
 
         for (Voador voador : patotaDoAr) {
             voador.voar();
-        }        
-        
-        
+        }                
 	}
 
 }

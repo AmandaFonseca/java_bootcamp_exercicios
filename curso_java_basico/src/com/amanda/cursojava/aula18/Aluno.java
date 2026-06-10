@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula18;
+package com.amanda.cursoJava.aula18;
 
 
 public class Aluno extends Pessoa {
@@ -16,22 +16,18 @@ public class Aluno extends Pessoa {
 	public double calcularMedia(){
 		return 0;
 	}
-
 	public boolean verificarAprovado(){
 		return true;
 	}
 	public String getNomecurso() {
 		return nomecurso;
 	}
-
 	public void setNomecurso(String nomecurso) {
 		this.nomecurso = nomecurso;
 	}
-
 	public double[] getNotas() {
 		return notas;
 	}
-
 	public void setNotas(double[] notas) {
 		this.notas = notas;
 	}

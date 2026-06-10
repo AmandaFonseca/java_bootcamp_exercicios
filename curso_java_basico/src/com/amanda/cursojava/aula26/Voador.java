@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula26;
+package com.amanda.cursoJava.aula26;
 
 public interface Voador {
     void voar();

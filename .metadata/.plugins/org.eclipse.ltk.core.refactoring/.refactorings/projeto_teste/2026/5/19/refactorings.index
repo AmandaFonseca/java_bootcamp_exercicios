@@ -4,3 +4,26 @@
 1778014156648	Delete elements
 1778014317983	Delete elements
 1778014332774	Delete elements
+1778031483646	Delete element
+1778031808899	Copy package
+1778031824980	Delete element
+1778031839411	Delete elements
+1778032030990	Encapsulate field 'modelo, tensao, potencia, ...'
+1778033557984	Rename type 'App'
+1778034839017	Encapsulate field 'marca, ...'
+1778035299366	Copy package
+1778035305626	Delete element
+1778035317876	Delete element
+1778035330384	Rename type 'TestaLampada'
+1778036808117	Copy compilation unit
+1778086450560	Delete elements
+1778086468011	Delete element
+1778087455508	Delete element
+1778089975843	Move compilation unit
+1778091715268	Copy package
+1778091744628	Delete element
+1778091862137	Copy package
+1778091914597	Copy compilation unit
+1778095115191	Copy package
+1778095133162	Copy package
+1778100035219	Rename compilation unit 'TestaPessoa.java'

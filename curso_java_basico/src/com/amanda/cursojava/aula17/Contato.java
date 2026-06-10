@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula17;
+package com.amanda.cursoJava.aula17;
 
 public class Contato {
 	private String nome;
@@ -6,7 +6,6 @@ public class Contato {
 	//Relacionamento entre Classes
 	private Endereco endereco;
 	private Telefone [] telefones;
-	
 	
 	public Endereco getEndereco() {
 		return endereco;

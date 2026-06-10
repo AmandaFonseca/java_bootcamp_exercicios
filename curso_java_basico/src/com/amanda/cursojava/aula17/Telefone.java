@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula17;
+package com.amanda.cursoJava.aula17;
 
 public class Telefone {
 	// Atributos privados (Encapsulamento)
@@ -18,7 +18,6 @@ public class Telefone {
     }
 
     // --- Métodos Getters e Setters ---
-
     public String getTipo() {
         return tipo;
     }

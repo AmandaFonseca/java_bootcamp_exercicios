@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula20;
+package com.amanda.cursoJava.aula20;
 
 public class main {
 

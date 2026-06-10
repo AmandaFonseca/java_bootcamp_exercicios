@@ -1,5 +1,4 @@
-package com.amanda.cursojava.aula19;
-
+package com.amanda.cursoJava.aula19;
 
 public class Heroi {
 	// Todo mundo vê: todas os pacotes, classes, subclasses v

@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula27;
+package com.amanda.cursoJava.aula27;
 
 import java.util.ArrayList;
 import java.util.List;

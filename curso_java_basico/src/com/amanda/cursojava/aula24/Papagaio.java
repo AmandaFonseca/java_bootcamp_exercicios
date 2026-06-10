@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula24;
+package com.amanda.cursoJava.aula24;
 
 public class Papagaio extends Ave{
     public Papagaio(String nome) {

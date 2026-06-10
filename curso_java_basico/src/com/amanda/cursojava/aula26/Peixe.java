@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula26;
+package com.amanda.cursoJava.aula26;
 
 //O Peixe É UM Animal e CONSEGUE apenas Nadar
 public class Peixe extends Animal implements Nadador {

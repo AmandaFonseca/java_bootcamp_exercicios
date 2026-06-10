@@ -1,6 +1,6 @@
-package com.amanda.cursojava.aula19B;
+package com.amanda.cursoJava.aula19B;
 
-import com.amanda.cursojava.aula19.Heroi;
+import com.amanda.cursoJava.aula19.Heroi;
 
 public class Vilao {
 	public void atacar() {

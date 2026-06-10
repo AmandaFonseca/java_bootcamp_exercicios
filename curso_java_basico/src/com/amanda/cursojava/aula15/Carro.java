@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula15;
+package com.amanda.cursoJava.aula15;
 
 public class Carro {
     // Atributos PRIVADOS: ninguém de fora pode alterá-los diretamente

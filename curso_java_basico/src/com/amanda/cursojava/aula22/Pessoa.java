@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula22;
+package com.amanda.cursoJava.aula22;
 
 public class Pessoa {
 	public  String nome;

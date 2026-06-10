@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula26;
+package com.amanda.cursoJava.aula26;
 
 public abstract class Animal {
 	protected String nome; // Estado comum

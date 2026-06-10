@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula28;
+package com.amanda.cursoJava.aula28;
 
 
 public class Aluno extends Pessoa {

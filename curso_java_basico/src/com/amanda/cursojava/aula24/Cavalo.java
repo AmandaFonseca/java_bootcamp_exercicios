@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula24;
+package com.amanda.cursoJava.aula24;
 
 /*Por que usei extends Mamifero
  * Significa que: Cavalo É UM Mamifero > Ou seja, Cavalo herda tudo que existe em Mamifero.

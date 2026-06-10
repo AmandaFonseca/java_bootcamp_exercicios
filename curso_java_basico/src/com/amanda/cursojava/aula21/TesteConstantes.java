@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula21;
+package com.amanda.cursoJava.aula21;
 
 public class TesteConstantes {
 

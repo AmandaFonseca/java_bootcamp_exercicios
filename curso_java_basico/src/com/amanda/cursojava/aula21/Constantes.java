@@ -1,4 +1,4 @@
-package com.amanda.cursojava.aula21;
+package com.amanda.cursoJava.aula21;
 
 /*O final na declaração da classe: significa que essa classe NÃO 
  * pode ser herdada (não pode usar extends Constantes).
